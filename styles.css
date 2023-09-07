@@ -1,0 +1,115 @@
+  /* Estilo del contenedor flexbox 'fig' */
+*{
+    font-family: pangea, sans-serif;
+    text-align:center;
+    color:rgb(245,245,245);
+       } 
+body{
+           background:url(https://p4.wallpaperbetter.com/wallpaper/252/303/689/background-dirt-minecraft-minimalistic-wallpaper-preview.jpg);
+            background-size: cover;
+            margin:0;
+            padding-top:110;
+       }
+       /* setting styles for the pricing part */
+.product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+.product-name{
+    background-color:rgb(0,204,255);
+}
+ol, li{
+    list-style: none; 
+    text-align:left;
+}
+.both{
+    display:flex;
+    justify-content:center;
+}
+button{
+    background-color:rgb(50,150,0);
+    color:rgb(50,50,0);
+    width:60%;
+    height:30px;
+  bottom:-100px;
+}
+        /* Estilo visual para la selección de productos */
+.product label {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+        }
+fig {
+    display: flex; /* Utiliza flexbox para sus hijos */
+    background-image: url(https://wallpaperswide.com/download/minecraft_landscape_2-wallpaper-7680x2160.jpg);/* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center; /* Centra la imagen en el fondo */
+    height: 100px; /* Altura deseada para el contenedor 'fig' */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: space-between; /* Espacio uniforme entre los elementos hijos */
+    padding: 0 20px; /* Espaciado interior para los elementos hijos */
+    position: fixed; /* Elemento fijo */
+    top: 0; /* Fijar en la parte superior de la pantalla */
+    width: 100%; /* Ancho completo */
+    margin:0;
+    z-index: 999; /* Z-index alto para estar en la parte superior */
+        }
+
+        /* Estilo del logo */
+img {
+    max-height: 100px; /* Ajusta la altura máxima de la imagen del logo */
+}
+
+/* Estilo de los elementos de navegación 'li' */
+#nav-bar ul{
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    display: flex; /* Utiliza flexbox para los elementos 'li' */
+}
+
+#nav-bar li {
+    margin-right: 10px; /* Espacio entre los elementos 'li' */
+    font-size: 3vw;
+}
+
+#nav-bar a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+        /*-------------------------fonts--------------------*/
+@font-face {
+    font-family: SuisseIntl;
+    src: url("https://cdn.honey.io/fonts/suisse-intl/400.eot");
+    src: url("https://cdn.honey.io/fonts/suisse-intl/400.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl/400.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl/400.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl/400.svg") format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: SuisseIntlMono;
+    src: url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.eot");
+    src: url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.svg") format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Eina03;
+    src: url("https://cdn.honey.io/fonts/eina03/700.eot");
+    src: url("https://cdn.honey.io/fonts/eina03/700.woff2") format("woff2"),url("https://cdn.honey.io/fonts/eina03/700.woff") format("woff"),url("https://cdn.honey.io/fonts/eina03/700.ttf") format("truetype");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Pangea;
+    src: url("https://cdn.honey.io/fonts/pangea/medium.woff2") format("woff2"),url("https://cdn.honey.io/fonts/pangea/medium.woff") format("woff");
+    font-display: swap
+}
+
+@font-face {
+    font-family: HoneyGoldG;
+    font-display: swap;
+    src: url("https://cdn.honey.io/fonts/honeygold-g/medium.ttf") format("truetype")
+}
